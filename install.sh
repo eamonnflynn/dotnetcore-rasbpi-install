@@ -9,10 +9,10 @@ wget https://download.visualstudio.microsoft.com/download/pr/e5573b57-df74-4b5b-
 wget https://download.visualstudio.microsoft.com/download/pr/7c130118-be9f-4e5b-89c3-97ffcfa2f45e/e156161f472b57159868c7b6225679f8/aspnetcore-runtime-2.2.4-linux-arm.tar.gz
 
 #Install SDK
-mkdir -p $HOME/dotnet && tar zxf dotnet-sdk-2.2.105-linux-arm.tar.gz -C $HOME/dotnet
+mkdir -p $HOME/dotnet && tar zxf dotnet-sdk-2.2.203-linux-arm.tar.gz -C $HOME/dotnet
 
 export DOTNET_ROOT=$HOME/dotnet 
 export PATH=$PATH:$HOME/dotnet
 
 # untar asp.net Core runtime
-tar zxf aspnetcore-runtime-2.2.3-linux-arm.tar.gz -C $HOME/dotnet
+tar zxf aspnetcore-runtime-2.2.4-linux-arm.tar.gz -C $HOME/dotnet
