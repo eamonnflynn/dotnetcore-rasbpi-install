@@ -1,5 +1,4 @@
-
-
+#!/bin/bash
 sudo apt-get install curl libunwind8 gettext
 
 
@@ -21,7 +20,7 @@ mkdir -p $HOME/dotnet
 # to the end of your shell profile
 
 # untar latest sdk 
-tar zxf dotnet-sdk-2.2.203-linux-arm.tar.gz -C $HOME/dotnet
+tar zxf dotnet-sdk-2.2.300-linux-arm.tar.gz -C $HOME/dotnet
 
 # untar latest asp.net Core runtime
-tar zxf aspnetcore-runtime-2.2.4-linux-arm.tar.gz -C $HOME/dotnet
+tar zxf aspnetcore-runtime-2.2.5-linux-arm.tar.gz -C $HOME/dotnet
